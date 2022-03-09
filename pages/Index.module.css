@@ -1,0 +1,30 @@
+/* 吹き出し本体 */
+.balloon1 {
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  margin-left: 110px; /* 左に余白を設ける */
+  margin-top: 10px;
+  border: 2px solid black;
+}
+/* 画像 - 絶対配置で左上に配置 */
+.balloon1 .icon {
+  position: absolute;
+  left: -90px;
+  top: 0;
+}
+/* 三角アイコン */
+.balloon1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid black;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
