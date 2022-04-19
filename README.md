@@ -1,3 +1,3 @@
 ## ハッピフル倶楽部へようこそ
 
-site: https://hpfull.jp/
+site: [https://corp.hpfull.jp/](https://corp.hpfull.jp/)
